@@ -43,16 +43,16 @@ body{
 }
 
 .play-board .food{
-    background: #228b22;
+    background: #a31212;
 }
 
 .play-board .head{
-    background: #00579e;
-    border-radius: 2px;
+    background: #228b22;
+    border-radius: 3px;
 }
 
 .controls{
-    display: flex;
+    display: none;
     justify-content: space-between;
 
 }
@@ -88,4 +88,11 @@ body{
         padding: 15px 0;
         font-size: 1rem;
     }
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    bottom: 5%;
+    color: rgba(255, 255, 255, 1);
 }
